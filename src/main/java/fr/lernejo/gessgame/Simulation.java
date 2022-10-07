@@ -26,7 +26,6 @@ public class Simulation {
     private boolean nextRound() {
         
         long guess = player.askNextGuess();
-        System.out.println("guess = " + numberToGuess);
         if (guess == numberToGuess) {
             logger.log("You guessed the number");
             return true;
@@ -53,5 +52,5 @@ public class Simulation {
         long milliseconds = time % 1000;
         System.out.println("time = " + minutes + ":" + seconds + "." + milliseconds);
     }
-    
+
   }
