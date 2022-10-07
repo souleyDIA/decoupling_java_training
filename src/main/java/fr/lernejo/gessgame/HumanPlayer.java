@@ -18,9 +18,9 @@ public class HumanPlayer implements Player  {
     @Override
     public void respond(boolean lowerOrGreater) {
         if (lowerOrGreater) {
-            logger.log("The number to find is lower");
+            logger.log("The number is greater than your guess");
         } else {
-            logger.log("The number to find is greater");
+            logger.log("The number is lower than your guess");
         }
     }
 }

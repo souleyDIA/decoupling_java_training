@@ -8,7 +8,8 @@ public class Launcher {
         SecureRandom random = new SecureRandom();
         long randomNumber = random.nextInt(10);
         simulation.initialize(randomNumber);
-        simulation.loopUntilPlayerSucceed();
+        simulation.loopUntilPlayerSucceed(2);
     }
 }
 
+//mvn compile exec:java -Dexec.mainClass="com.github.lernejo.korekto.toolkit.launcher.GradingJobLauncher" -Dexec.args="-s=souleyDIA"
