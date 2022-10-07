@@ -1,4 +1,4 @@
-package fr.lernejo.gessgame;
+package fr.lernejo.guessgame;
 
 import java.util.Scanner;
 
