@@ -20,6 +20,8 @@ public class HumanPlayer implements Player  {
         if (lowerOrGreater) {
             logger.log("The number is greater than your guess");
         }
-        logger.log("The number is lower than your guess");
+        else {
+            logger.log("The number is lower than your guess");
+        }
     }
 }
