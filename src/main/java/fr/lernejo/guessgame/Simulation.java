@@ -33,7 +33,7 @@ public class Simulation {
         return false;
     }
     
-    public void loopUntilPlayerSucceed( int maxIteration) {
+    public void loopUntilPlayerSucceed( long maxIteration) {
 
         startTime = System.currentTimeMillis();
         while (!nextRound() && maxIteration > 0) {

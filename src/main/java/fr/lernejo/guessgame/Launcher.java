@@ -16,7 +16,7 @@ public class Launcher {
             SecureRandom random = new SecureRandom();
             int randomNumber = random.nextInt(10);
             simulation.initialize(randomNumber);
-            simulation.loopUntilPlayerSucceed(Integer.MAX_VALUE);
+            simulation.loopUntilPlayerSucceed(Long.MAX_VALUE);
         } 
         
         else if (args[0].equals("-auto") && args.length == 2) {
