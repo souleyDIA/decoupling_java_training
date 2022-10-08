@@ -26,7 +26,7 @@ public class Simulation {
         
         long guess = player.askNextGuess();
         if (guess == numberToGuess) {
-            logger.log("Bravo you guessed the number");
+            logger.log("Bravo you win");
             return true;
         }
         player.respond(guess < numberToGuess);
