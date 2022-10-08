@@ -7,16 +7,15 @@ public class Simulation {
 
     private final Logger logger = LoggerFactory.getLogger("simulation");
     private final Player player;
-    private long numberToGuess;
-
-   // private long startTime;
-   // private long endTime;
+    private int numberToGuess;
+    private long startTime;
+    private long endTime;
 
     public Simulation(Player player) {
         this.player = player;
     }
     
-    public void initialize(long numberToGuess) {
+    public void initialize(int numberToGuess) {
         this.numberToGuess = numberToGuess;
     }
     
@@ -36,7 +35,7 @@ public class Simulation {
     
     public void loopUntilPlayerSucceed( int maxIteration) {
 
-        //startTime = System.currentTimeMillis();
+        startTime = System.currentTimeMillis();
         while (!nextRound() && maxIteration > 0) {
             maxIteration--;
         }
@@ -45,12 +44,12 @@ public class Simulation {
             logger.log("You didn't find the number");
         }
 
-        // endTime = System.currentTimeMillis();
-        // long time = endTime - startTime;
-        // long minutes = time / 60000;
-        // long seconds = (time % 60000) / 1000;
-        // long milliseconds = time % 1000;
-        // System.out.println("time = " + minutes + ":" + seconds + "." + milliseconds);
+        endTime = System.currentTimeMillis();
+        long time = endTime - startTime;
+        long minutes = time / 60000;
+        long seconds = (time % 60000) / 1000;
+        long milliseconds = time % 1000;
+        System.out.println("time = " + minutes + ":" + seconds + "." + milliseconds);
     }
 
   }

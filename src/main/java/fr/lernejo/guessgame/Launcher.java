@@ -6,7 +6,7 @@ public class Launcher {
         Player player = new HumanPlayer();
         Simulation simulation = new Simulation(player);
         SecureRandom random = new SecureRandom();
-        long randomNumber = random.nextInt(10);
+        int randomNumber = random.nextInt(10);
         simulation.initialize(randomNumber);
         simulation.loopUntilPlayerSucceed(2);
     }
