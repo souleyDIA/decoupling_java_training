@@ -1,0 +1,13 @@
+[2022-10-09 18:13:44.494] [Player] Enter a number between 0 and 10
+[2022-10-09 18:13:49.542] [Player] The number is lower than your guess
+[2022-10-09 18:13:49.545] [Player] Enter a number between 0 and 10
+[2022-10-09 18:14:20.783] [Player] The number is lower than your guess
+[2022-10-09 18:14:20.785] [Player] Enter a number between 0 and 10
+[2022-10-09 18:14:27.405] [Player] The number is lower than your guess
+[2022-10-09 18:14:27.407] [Player] Enter a number between 0 and 10
+[2022-10-09 18:14:32.355] [Player] The number is lower than your guess
+[2022-10-09 18:14:32.357] [Player] Enter a number between 0 and 10
+[2022-10-09 18:14:37.401] [Player] The number is lower than your guess
+[2022-10-09 18:14:37.403] [Player] Enter a number between 0 and 10
+[2022-10-09 18:14:43.063] [Player] The number is lower than your guess
+[2022-10-09 18:14:43.065] [Player] Enter a number between 0 and 10
