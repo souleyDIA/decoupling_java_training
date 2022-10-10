@@ -6,7 +6,7 @@ import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
 public class HumanPlayer implements Player  {
-    private final Logger logger = LoggerFactory.getLogger("Player", "src/test/java/HumanPlayerLogTest.txt");
+    private final Logger logger = LoggerFactory.getLogger("Player");
     private final Scanner scanner = new Scanner(System.in);
 
     @Override
