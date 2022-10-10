@@ -1,0 +1,8 @@
+[2022-10-10 10:46:58.587] [player] Enter a number between 0 and 10
+[2022-10-10 10:47:08.203] [player] The number is lower than your guess
+[2022-10-10 10:47:08.207] [player] Enter a number between 0 and 10
+[2022-10-10 10:47:12.791] [player] The number is greater than your guess
+[2022-10-10 10:47:12.793] [player] Enter a number between 0 and 10
+[2022-10-10 10:47:19.533] [player] The number is lower than your guess
+[2022-10-10 10:47:19.536] [player] Enter a number between 0 and 10
+[2022-10-10 10:47:22.959] [simulation] Bravo you win :)
