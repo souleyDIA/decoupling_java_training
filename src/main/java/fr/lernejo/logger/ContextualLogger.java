@@ -6,7 +6,7 @@ public class ContextualLogger implements Logger {
     private final Logger logger;
     private final String className;
 
-    public ContextualLogger(Logger logger, String className) {
+    public ContextualLogger(String className, Logger logger) {
         this.logger = logger;
         this.className = className;
     }
