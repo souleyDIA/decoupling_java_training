@@ -13,5 +13,3 @@ public class LoggerFactory {
         return new FilteredLogger(contextualLogger, filter); 
     }
 }
-
-//mvn compile exec:java -Dexec.args="-s=souleyDIA" -Dgithub_token="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"
