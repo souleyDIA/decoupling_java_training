@@ -1,3 +1,1 @@
-[2022-10-10 09:15:14.690] [Player] Enter a number between 0 and 10
-[2022-10-10 09:15:19.070] [Player] The number is lower than your guess
-[2022-10-10 09:15:19.073] [Player] Enter a number between 0 and 10
+[2022-10-10 10:04:20.117] [player] Enter a number between 0 and 10

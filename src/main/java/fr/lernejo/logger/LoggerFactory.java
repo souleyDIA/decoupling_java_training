@@ -5,11 +5,11 @@ import java.util.function.Predicate;
 public class LoggerFactory {
 
     public static Logger getLogger(String className){
-        Predicate<String> filter = s -> !s.contains("player");
+        Predicate<String> filter = s -> !s.contains("simulation");
         Logger consoleLogger = new ConsoleLogger();
         Logger fileLogger = new FileLogger("src/test/java/ComputerPlayerLogTest.txt");
         Logger compositeLogger = new CompositeLogger(consoleLogger, fileLogger);
-        FilteredLogger filteredLogger = new FilteredLogger(compositeLogger, filter);  
-        return new ContextualLogger(filteredLogger, className);
+        Logger contextualLogger = new ContextualLogger(compositeLogger, className);
+        return new FilteredLogger(contextualLogger, filter); 
     }
 }
